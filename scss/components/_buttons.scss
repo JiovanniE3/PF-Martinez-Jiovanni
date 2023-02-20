@@ -1,0 +1,53 @@
+.btn-menu {
+    label {
+        z-index: 2;
+        width: 60px;
+        height: 60px;
+        border: 3px solid #8e5431;
+        background-color: #efcead;
+        border-radius: 100%;
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        color: #8e5431;
+        font-size: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+
+#btn-menu {
+    display: none;
+
+    &:checked~.container-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:checked~.container-menu .cont-menu {
+        transform: translateX(0%);
+    }
+
+}
+
+.botones-ver-mas {
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8e5431;
+    color: #efcead;
+    bottom: 0px;
+    left: 0px;
+    transform: translateY(70px);
+    transition: all 400ms ease-out;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+    
+    &:hover{
+        width: 300px;
+    }
+}

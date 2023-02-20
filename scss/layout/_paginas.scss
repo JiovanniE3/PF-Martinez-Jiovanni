@@ -1,0 +1,31 @@
+.contenido_paginas {
+
+    @include content-box-config();
+}
+
+.card_paginas {
+
+    @include card-box-config();
+
+    height: auto;
+    color: #744c24;
+    background-color: #efcead;
+    width: 100%;
+    border-radius: 15px;
+    text-align: left;
+    padding: 20px;
+
+    p {
+        margin-top: 30px;
+    }
+
+}
+
+.imgprogramador {
+    
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.50);
+}

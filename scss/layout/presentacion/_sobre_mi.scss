@@ -1,0 +1,22 @@
+.contenido_sobre_mi {
+
+    @include content-box-config();
+    border-radius: 15px;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.caja_cards_sobre_mi {
+
+    @include card-content-config ();
+    
+    height: auto;
+    color: #744c24;
+    background-color: #efcead;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}

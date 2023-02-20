@@ -1,0 +1,23 @@
+
+@import "utilities/variables";
+@import "utilities/animation";
+@import "utilities/mixins";
+
+@import "components/buttons";
+
+@import "layout/nav";
+@import "layout/grid";
+
+@import "layout/presentacion/sobre_mi";
+@import "layout/presentacion/presentacion";
+@import "layout/presentacion/habilidades";
+@import "layout/presentacion/portafolio";
+@import "layout/presentacion/estudios";
+@import "layout/paginas";
+@import "layout/mas_habilidades";
+@import "layout/fotos_kingsman";
+@import "layout/contacto";
+
+@import "layout/footer";
+
+@import "utilities/mediaquery";

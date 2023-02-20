@@ -1,0 +1,34 @@
+.caja_presentacion {
+    min-height: 200px;
+}
+
+.contenido_presentacion {
+
+    @include card-box-config();
+    
+    align-items: center;
+    height: auto;
+    width: 100%;
+
+    h1 {
+        width: 600px;
+        height: auto;
+        border-radius: 15px;
+        padding: 20px;
+        color: #f3e3d3;
+        background-color: #8e5431;
+        font-size: 60px;
+        text-align: center;
+        animation: nombre 10s infinite;
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    img {
+        border: 6px solid #8e5431;
+        border-radius: 15px;
+        transform: scale(1.2);
+        width: 250px;
+        height: 300px;
+    }
+}

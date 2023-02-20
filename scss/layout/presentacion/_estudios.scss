@@ -1,0 +1,36 @@
+.caja_estudios {
+    min-height: 200px;
+}
+
+.contenido_estudios {
+    
+    @include content-box-config();
+}
+
+.caja_cards_estudios {
+    
+    @include card-box-config;
+
+}
+
+.card_estudios {
+
+    @include card-content-config ();
+
+    color: #744c24;
+    background-color: #efcead;
+    width: 250px;
+    height: auto;
+    margin: 20px 10px;
+    text-align: center;
+    border-radius: 15px;
+
+    .titulos {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+}

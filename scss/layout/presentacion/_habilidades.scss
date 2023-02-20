@@ -1,0 +1,17 @@
+.contenido_habilidades {
+
+    @include content-box-config();
+}
+
+.logos_habilidades {
+
+    @include card-box-config();
+
+
+    img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+}

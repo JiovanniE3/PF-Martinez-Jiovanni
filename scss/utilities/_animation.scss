@@ -1,0 +1,48 @@
+@keyframes animacion-fondo {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100%, 50%;
+    }
+
+    100% {
+        background-position: 0%, 50%;
+    }
+}
+
+@keyframes categoria {
+    20% {
+        transform: translate(0px, -65px);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translate(0px, -65px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(100px, -65px);
+        opacity: 0;
+    }
+}
+
+
+@keyframes nombre {
+    20% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}

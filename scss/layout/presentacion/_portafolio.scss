@@ -1,0 +1,79 @@
+.contenido_portafolio {
+
+    @include content-box-config();
+
+}
+
+.caja_cards_portafolio {
+
+    @include card-box-config;
+
+}
+
+.contenedor-imagen {
+    width: 350px;
+    height: 250px;
+    margin: 20px 0px;
+
+    figure {
+        position: relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            transition: all 400ms ease-out;
+        }
+
+        .capa {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(114, 98, 37, 0.741);
+            transition: all 400ms ease-out;
+            opacity: 0;
+            visibility: hidden;
+            text-align: center;
+        }
+
+        &:hover>.capa {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        &:hover>.capa h3 {
+            margin-top: 70px;
+            margin-bottom: 15px;
+        }
+
+        &:hover>img {
+            transform: scale(1.3);
+        }
+
+        .capa {
+            h3 {
+                color: #fff;
+                font-weight: 400;
+                margin-bottom: 120px;
+                transition: all 400ms ease-out;
+                margin-top: 30px;
+            }
+
+            p {
+                color: #fff;
+                font-size: 15px;
+                line-height: 1.5;
+                width: 100%;
+                max-width: 220px;
+                margin: auto;
+            }
+        }
+    }
+}

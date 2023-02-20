@@ -1,0 +1,19 @@
+@mixin content-box-config () {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin card-box-config() {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@mixin card-content-config (){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
